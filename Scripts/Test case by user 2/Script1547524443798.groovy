@@ -15,3 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://www.youtube.com/')
 
+WebUI.navigateToUrl('https://www.google.com/')
+
+WebUI.setText(findTestObject('Page_Google/input_Sign in_q'), 'AHA')
+
